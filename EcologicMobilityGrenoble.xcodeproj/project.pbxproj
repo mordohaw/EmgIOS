@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650A62C7200C9B7900E9FCD0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 650A62C6200C9B7900E9FCD0 /* logo.png */; };
+		650A62C9200C9B8400E9FCD0 /* btnImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 650A62C8200C9B8300E9FCD0 /* btnImage.png */; };
+		650A62CB200C9BFD00E9FCD0 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650A62CA200C9BFD00E9FCD0 /* Stop.swift */; };
+		650A62CD200CA09200E9FCD0 /* UrlConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650A62CC200CA09200E9FCD0 /* UrlConstructor.swift */; };
+		650A62CF200CDCA500E9FCD0 /* StopListViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650A62CE200CDCA500E9FCD0 /* StopListViewTableViewCell.swift */; };
+		650B917F2017480100B0B031 /* StopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B917E2017480100B0B031 /* StopViewController.swift */; };
+		650B918220176F4500B0B031 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B918120176F4500B0B031 /* Line.swift */; };
+		650B918420177E9600B0B031 /* LineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B918320177E9600B0B031 /* LineViewController.swift */; };
+		650B918620178D2A00B0B031 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B918520178D2A00B0B031 /* NavigationController.swift */; };
+		65AD26A920079C4000AF6C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AD26A820079C4000AF6C03 /* AppDelegate.swift */; };
+		65AD26AB20079C4000AF6C03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AD26AA20079C4000AF6C03 /* ViewController.swift */; };
+		65AD26AE20079C4000AF6C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AD26AC20079C4000AF6C03 /* Main.storyboard */; };
+		65AD26B020079C4000AF6C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65AD26AF20079C4000AF6C03 /* Assets.xcassets */; };
+		65AD26B320079C4000AF6C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AD26B120079C4000AF6C03 /* LaunchScreen.storyboard */; };
+		65AD26BF2007A50D00AF6C03 /* StopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AD26BE2007A50D00AF6C03 /* StopListView.swift */; };
+		65E291FE200E2BDE00CC071B /* MapGeoloc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E291FD200E2BDE00CC071B /* MapGeoloc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		650A62C6200C9B7900E9FCD0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		650A62C8200C9B8300E9FCD0 /* btnImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnImage.png; sourceTree = "<group>"; };
+		650A62CA200C9BFD00E9FCD0 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		650A62CC200CA09200E9FCD0 /* UrlConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlConstructor.swift; sourceTree = "<group>"; };
+		650A62CE200CDCA500E9FCD0 /* StopListViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopListViewTableViewCell.swift; sourceTree = "<group>"; };
+		650B917E2017480100B0B031 /* StopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopViewController.swift; sourceTree = "<group>"; };
+		650B918120176F4500B0B031 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		650B918320177E9600B0B031 /* LineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineViewController.swift; sourceTree = "<group>"; };
+		650B918520178D2A00B0B031 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		65AD26A520079C4000AF6C03 /* EcologicMobilityGrenoble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcologicMobilityGrenoble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AD26A820079C4000AF6C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65AD26AA20079C4000AF6C03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65AD26AD20079C4000AF6C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65AD26AF20079C4000AF6C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65AD26B220079C4000AF6C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65AD26B420079C4000AF6C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65AD26BE2007A50D00AF6C03 /* StopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopListView.swift; sourceTree = "<group>"; };
+		65E291FD200E2BDE00CC071B /* MapGeoloc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapGeoloc.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65AD26A220079C4000AF6C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650B918020176F2300B0B031 /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				650B918120176F4500B0B031 /* Line.swift */,
+			);
+			path = Line;
+			sourceTree = "<group>";
+		};
+		65AD269C20079C3F00AF6C03 = {
+			isa = PBXGroup;
+			children = (
+				65AD26A720079C4000AF6C03 /* EcologicMobilityGrenoble */,
+				65AD26A620079C4000AF6C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65AD26A620079C4000AF6C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65AD26A520079C4000AF6C03 /* EcologicMobilityGrenoble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65AD26A720079C4000AF6C03 /* EcologicMobilityGrenoble */ = {
+			isa = PBXGroup;
+			children = (
+				650B918020176F2300B0B031 /* Line */,
+				65E291FC200E2BB100CC071B /* Map */,
+				65E291FB200E267200CC071B /* Ressources */,
+				65E291FA200E265000CC071B /* Views */,
+				65E291F9200E262700CC071B /* Stop */,
+				65E291F8200E25BF00CC071B /* ApiConnection */,
+				65AD26A820079C4000AF6C03 /* AppDelegate.swift */,
+				65AD26AC20079C4000AF6C03 /* Main.storyboard */,
+				65AD26AF20079C4000AF6C03 /* Assets.xcassets */,
+				65AD26B120079C4000AF6C03 /* LaunchScreen.storyboard */,
+				65AD26B420079C4000AF6C03 /* Info.plist */,
+			);
+			path = EcologicMobilityGrenoble;
+			sourceTree = "<group>";
+		};
+		65E291F8200E25BF00CC071B /* ApiConnection */ = {
+			isa = PBXGroup;
+			children = (
+				650A62CC200CA09200E9FCD0 /* UrlConstructor.swift */,
+			);
+			path = ApiConnection;
+			sourceTree = "<group>";
+		};
+		65E291F9200E262700CC071B /* Stop */ = {
+			isa = PBXGroup;
+			children = (
+				650A62CA200C9BFD00E9FCD0 /* Stop.swift */,
+				650A62CE200CDCA500E9FCD0 /* StopListViewTableViewCell.swift */,
+			);
+			path = Stop;
+			sourceTree = "<group>";
+		};
+		65E291FA200E265000CC071B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65AD26AA20079C4000AF6C03 /* ViewController.swift */,
+				65AD26BE2007A50D00AF6C03 /* StopListView.swift */,
+				650B917E2017480100B0B031 /* StopViewController.swift */,
+				650B918320177E9600B0B031 /* LineViewController.swift */,
+				650B918520178D2A00B0B031 /* NavigationController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65E291FB200E267200CC071B /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				650A62C8200C9B8300E9FCD0 /* btnImage.png */,
+				650A62C6200C9B7900E9FCD0 /* logo.png */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		65E291FC200E2BB100CC071B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				65E291FD200E2BDE00CC071B /* MapGeoloc.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65AD26A420079C4000AF6C03 /* EcologicMobilityGrenoble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AD26B720079C4000AF6C03 /* Build configuration list for PBXNativeTarget "EcologicMobilityGrenoble" */;
+			buildPhases = (
+				65AD26A120079C4000AF6C03 /* Sources */,
+				65AD26A220079C4000AF6C03 /* Frameworks */,
+				65AD26A320079C4000AF6C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcologicMobilityGrenoble;
+			productName = EcologicMobilityGrenoble;
+			productReference = 65AD26A520079C4000AF6C03 /* EcologicMobilityGrenoble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65AD269D20079C3F00AF6C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = iut;
+				TargetAttributes = {
+					65AD26A420079C4000AF6C03 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 65AD26A020079C3F00AF6C03 /* Build configuration list for PBXProject "EcologicMobilityGrenoble" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65AD269C20079C3F00AF6C03;
+			productRefGroup = 65AD26A620079C4000AF6C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65AD26A420079C4000AF6C03 /* EcologicMobilityGrenoble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65AD26A320079C4000AF6C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650A62C7200C9B7900E9FCD0 /* logo.png in Resources */,
+				65AD26B320079C4000AF6C03 /* LaunchScreen.storyboard in Resources */,
+				65AD26B020079C4000AF6C03 /* Assets.xcassets in Resources */,
+				650A62C9200C9B8400E9FCD0 /* btnImage.png in Resources */,
+				65AD26AE20079C4000AF6C03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65AD26A120079C4000AF6C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650B918620178D2A00B0B031 /* NavigationController.swift in Sources */,
+				650B918420177E9600B0B031 /* LineViewController.swift in Sources */,
+				650B917F2017480100B0B031 /* StopViewController.swift in Sources */,
+				65E291FE200E2BDE00CC071B /* MapGeoloc.swift in Sources */,
+				65AD26AB20079C4000AF6C03 /* ViewController.swift in Sources */,
+				65AD26A920079C4000AF6C03 /* AppDelegate.swift in Sources */,
+				650A62CD200CA09200E9FCD0 /* UrlConstructor.swift in Sources */,
+				65AD26BF2007A50D00AF6C03 /* StopListView.swift in Sources */,
+				650B918220176F4500B0B031 /* Line.swift in Sources */,
+				650A62CF200CDCA500E9FCD0 /* StopListViewTableViewCell.swift in Sources */,
+				650A62CB200C9BFD00E9FCD0 /* Stop.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65AD26AC20079C4000AF6C03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AD26AD20079C4000AF6C03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65AD26B120079C4000AF6C03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AD26B220079C4000AF6C03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65AD26B520079C4000AF6C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65AD26B620079C4000AF6C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65AD26B820079C4000AF6C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcologicMobilityGrenoble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.mordohaw.EcologicMobilityGrenoble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65AD26B920079C4000AF6C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcologicMobilityGrenoble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.mordohaw.EcologicMobilityGrenoble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65AD26A020079C3F00AF6C03 /* Build configuration list for PBXProject "EcologicMobilityGrenoble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AD26B520079C4000AF6C03 /* Debug */,
+				65AD26B620079C4000AF6C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AD26B720079C4000AF6C03 /* Build configuration list for PBXNativeTarget "EcologicMobilityGrenoble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AD26B820079C4000AF6C03 /* Debug */,
+				65AD26B920079C4000AF6C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65AD269D20079C3F00AF6C03 /* Project object */;
+}
